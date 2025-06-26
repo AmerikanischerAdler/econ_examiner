@@ -29,5 +29,5 @@ def analyze_legislation(text):
     return "\n".join(analysis)
 
 if __name__ == "__main__": 
-    analyze_legislation(input("Enter Legislation Proposal Summary:\n > "))
+    print(analyze_legislation(input("Enter Legislation Proposal Summary:\n > ")))
 
