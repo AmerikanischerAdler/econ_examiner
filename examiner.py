@@ -3,7 +3,7 @@ def analyze_legislation(text):
     analysis = []
 
     if "tax" in text:
-        if "increase" in text or "raise" in text:
+        if "increase" in text or "rais" in text:
             analysis.append("This bill may reduce incentives to work and invest due to higher taxes.")
         elif "cut" in text or "decrease" in text:
             analysis.append("This bill may increase incentives to work and invest by lowering taxes.")
