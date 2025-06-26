@@ -8,7 +8,7 @@ def analyze_legislation(text):
         elif "cut" in text or "decrease" in text:
             analysis.append("This bill may increase incentives to work and invest by lowering taxes.")
 
-    if "subsidy" in text:
+    if "subsid" in text:
         analysis.append("Subsidies can distort market signals and misallocate resources.")
 
     if "regulation" in text:
